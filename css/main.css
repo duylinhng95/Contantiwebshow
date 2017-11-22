@@ -1,0 +1,184 @@
+body {
+	font-family:sans-serif;
+	padding:0;
+	margin:0;
+	color: white;
+	position: relative;
+	overflow-y: auto;
+	background: black;
+}
+.content {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+/*HEADER & MENU*/
+.header{
+	height: 800px;
+	background: url("../images/banner.png");
+	background-size: cover;
+	margin: 0 auto;
+}
+.fixed-top{
+	background-color: rgba(44, 27, 22, 0.96);
+}
+.header h2{
+	color: #fff;
+    font-size: 60px;
+    text-align: center;
+    width: 550px;
+    margin: 350px auto auto auto;
+}
+.navbar{
+	font-family: "Intro";
+	margin: 10px auto;
+}
+.nav-item{
+	margin: auto 15px;
+}
+.menu{
+	margin: 0 auto;
+}
+.menu a{
+	color: white;
+}
+.nav li a{
+	color: ffffff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #464a4e !important;
+}
+/*OBJECTIVE*/
+.objective {
+		width: 962px;
+		margin: auto;
+}
+.objective .row{
+	padding-top: 34px;
+}
+.objbody {
+	height: 837px;
+	background: url("../images/backgroundobjective.png");
+	background-size:cover;
+}
+.objbody img{
+	display: block;
+	margin: auto;
+}
+/*DEFINE*/
+.definebody {
+	height:764px;
+	background-image: url("../images/bg_define.png");
+	background-size: cover;
+}
+.define{
+	width: 962px;
+}
+.define img{
+	display: block;
+	margin: auto;
+	padding-bottom: 10%;
+}
+.bg_top4{
+    position: relative;
+    font-size: 23px;
+}
+ .bg_top4_img{
+    position: absolute;
+    margin: auto;
+    padding-top: 20px;
+    left: 25%;
+    opacity: 0.5;
+
+}
+/*FEATURE*/
+.content_top5{
+    background-image: url("../images/bg_p.png");
+    background-size: cover;
+    padding: 30px auto;
+    height: 780px;
+}
+.content_top5 .center {
+    padding-left: 5%;
+    padding-top: 20%;
+}
+/*DOWNLOAD*/
+.content_top6{
+    background-image: url("../images/bg_p1.png");
+    background-size: cover;
+    height: 430px;
+}
+.content_top6 h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 18%;
+    color: #fff;
+}
+.content_top6 .row{
+	padding-top:10%;
+}
+.content{
+    width: 1280px;
+    margin: 0 auto;
+}
+/*About us */
+.about-us{
+    background: url(../images/aboutus_background.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about-us h1{
+    margin-top: 0;
+    text-align: center;
+    color: #AFB3F6;
+    font-size: 50px;
+    padding-top: 30px
+}
+.about-us img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 300px;
+     margin-bottom: 30px;
+}
+.about-us p, h4{
+    padding: 0 50px;
+    color: white;
+}
+.about-us h4 span{
+    margin-right: 10px;
+    margin-top: 60px;
+}
+/* Team*/
+.team{
+    height: 1000px;
+    background: url(../images/team_background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*footer*/
+
+.brand-background {
+    height: 200px;
+    background: url(../images/brand_background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.brand-background .brand{
+    padding-top: 50px;
+}
+.item img{
+    height: 40px !important;
+    width: 130px !important;
+}
+.footer{
+    background: url(../images/footer_background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
